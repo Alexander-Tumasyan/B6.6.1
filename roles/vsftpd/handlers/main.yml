@@ -1,0 +1,7 @@
+---
+# handlers file for vsftpd
+- name: start vsftpd
+  service:
+    name: vsftpd
+    state: started
+  ignore_errors: yes

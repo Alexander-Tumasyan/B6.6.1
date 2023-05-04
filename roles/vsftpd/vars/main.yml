@@ -1,0 +1,4 @@
+---
+# vars file for vsftpd
+vsftpd_config_template_path: /home/alex/Ansible/playbooks/B6.6.1/roles/vsftpd/templates/vsftpd.conf.j2
+vsftpd_config_path: /etc/vsftpd.conf
